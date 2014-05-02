@@ -1,0 +1,1 @@
+<li {if $sMenuSubItemSelect=='brand'}class="active"{/if}><a href="{router page='settings'}brand/">{$aLang.plugin.brand.menu_settings}</a></li>

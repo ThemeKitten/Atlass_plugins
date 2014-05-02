@@ -1,0 +1,23 @@
+/* -------------------------------------------------------
+ *
+ *   LiveStreet (v1.x)
+ *   Plugin Brand (v.0.1)
+ *   Copyright © 2012 Bishovec Nikolay
+ *
+ * --------------------------------------------------------
+ *
+ *   Plugin Page: http://netlanc.net
+ *   Contact e-mail: netlanc@yandex.ru
+ *
+  ---------------------------------------------------------
+ */
+.topic-brand{
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.topic-brand h2{
+    font-size: 18px;
+    margin-bottom: 15px;
+}

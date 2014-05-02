@@ -1,0 +1,1 @@
+<li class="dao-main-menu-hook {if $sAction==$oCatalogMenu->getCatalogUrl()}active{/if}"><a href="{$oCatalogMenu->getCatalogUrlFull()}"><i class="ion-record"></i> <span>{$oCatalogMenu->getCatalogTitle()|escape:'html'}</span> </a></li>
