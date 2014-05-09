@@ -1,7 +1,6 @@
 {if count($aAlbums)}
 <div class="profile-block ls-gallery-pl">
 <div class="profile-block-content">
-
 <div class="gallery-albums-preview">
     <h2 class="header-table">{$aLang.plugin.lsgallery.lsgallery_albums}</h2>
     <ul id="block-albums-list">

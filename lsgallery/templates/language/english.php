@@ -39,9 +39,10 @@ return array(
     'lsgallery_type_open' => 'Open',
     'lsgallery_type_friend' => 'For Friends',
     'lsgallery_type_personal' => 'Personal',
+    'lsgallery_type_shared' => 'Shared',
     'lsgallery_album_title_notice' => 'Fill necessarily',
     'lsgallery_album_description_notice' => 'The description must be between 10 and 512 characters',
-    'lsgallery_album_type_notice' => '«Open" - available for all. <br/> «For Friends" - for you and your friends. <br/> «Personal" - just for you.',
+    'lsgallery_album_type_notice' => '«Open" - available for all. <br/> «For Friends" - for you and your friends. <br/> «Personal" - just for you.<br/>«Shared» - images can be added by any user.',
     'lsgallery_albums_no_rating' => 'Not enough rating for the album',
 
     'lsgallery_album_id_error' => 'Invalid id album!',
@@ -92,33 +93,23 @@ return array(
 
     'lsgallery_album_slideshow' => 'Slideshow',
 
+    'lsgallery_image_sort_asc' => 'New to old',
+    'lsgallery_image_sort_desc' => 'Old to new',
+
     'lsgallery_image_zoom' => 'Zoom',
+    'lsgallery_image_zoom_out' => 'Zoom out',
     'lsgallery_cancel' => 'Cancel',
     'lsgallery_save' => 'Save',
 
     'lsgallery_user_menu_profile_favourites_images' => 'My Favorites',
-    'lsgallery_image_mark' => 'Add',
-    'lsgallery_image_mark_friend' => 'Flag man',
-    'lsgallery_image_mark_cancel' => 'Cancel the mark',
-    'lsgallery_disallow_mark_friend' => 'User is not your friend',
-    'lsgallery_disallow_mark_personal' => 'Prohibited celebrate people in closed albums',
-    'lsgallery_friend_marked' => 'User is marked in the picture',
-    'lsgallery_already_mark_friend' => 'User is already marked in the picture',
-    'lsgallery_marked_subject' => "You've been tagged in the photo",
-    'lsgallery_marked_changed_declined' => 'You have declined a mark on the photo',
-    'lsgallery_marked_changed_confirmed' => 'You approved stamp on the photo',
-    'lsgallery_uwere_marked' => "You've been tagged in this photo",
-    'lsgallery_mark_confirm' => 'Confirm',
-    'lsgallery_mark_decline' => 'Do not tag me in this photo',
-    'lsgallery_mark_remove' => 'Remove the mark',
-    'lsgallery_mark_removed' => 'Mark removed',
-    'lsgallery_declension_images' => 'photos; photos; photography',
-    'lsgallery_image_user_marked' => 'User Logged In',
-    'lsgallery_image_mark_notice' => 'Select the area where the person is, and it will be signed in the photo',
-    'lsgallery_ready' => 'Finish',
-    'lsgallery_admin_images_recalculated' => 'restated for photo',
     'lsgallery_admin_data_recalcimage' => 'Convert the data to the picture (selected and voice)',
-    'lsgallery_profile_marked' => 'I am in the photo',
+    'lsgallery_admin_images_recalculated' => 'restated for photo',
+
+    'lsgallery_flash_upload_init_error' => 'Failed to init flash uploader',
+
+    'lsgallery_title_albums' => 'Albums',
+    'lsgallery_control_album' => 'Control album',
+    'lsgallery_all_created_albums' => 'All albums',
 );
 
 

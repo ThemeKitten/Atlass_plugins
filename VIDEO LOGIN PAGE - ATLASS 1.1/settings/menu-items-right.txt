@@ -1,6 +1,0 @@
-<li>
-  <a title="" href="#ваша-ссылка-на сайте">
-    <i class="ion-ios7-chatboxes"></i>
-    <span>Ќазвание пункта</span>
-  </a>
-</li>
