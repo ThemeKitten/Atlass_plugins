@@ -1,0 +1,38 @@
+/*
+	Blogtopics plugin
+	(P) PSNet, 2008 - 2013
+	http://psnet.lookformp3.net/
+	http://livestreet.ru/profile/PSNet/
+	https://catalog.livestreetcms.com/profile/PSNet/
+	http://livestreetguide.com/developer/PSNet/
+*/
+
+div.block.Blogtopics ul li {
+	border-radius: 2px 2px 2px 2px;
+	clear: both;
+	margin-bottom: 5px;
+	overflow: hidden;
+	padding: 2px 5px 4px;
+}
+
+div.block.Blogtopics ul li.second {
+	background: #FAFAFF;
+}
+
+div.block.Blogtopics ul li .Avatar {
+	float: left;
+	margin-right: 5px;
+}
+
+div.block.Blogtopics ul li .Avatar * {
+	display: block;
+}
+
+div.block.Blogtopics ul li .Info {
+	overflow: hidden;
+}
+
+div.block.Blogtopics ul li .Info .small {
+	color: #888888;
+	font-size: 11px;
+}
