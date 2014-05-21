@@ -1,0 +1,147 @@
+/*
+  Similarpopup plugin
+  (P) PSNet, 2008 - 2012
+  http://psnet.lookformp3.net/
+  http://livestreet.ru/profile/PSNet/
+  http://livestreetcms.com/profile/PSNet/
+*/
+
+div.SimilarTopicsContainer {
+  clear: both;
+  z-index: 1000;
+  border: 3px solid;
+  padding: 15px 20px 15px 15px;
+  width: 400px;
+  position: fixed;
+  left: -500px;
+  bottom: 150px;
+  color: #EAEAEB;
+  margin-left: 25px;
+}
+
+div.SimilarTopicsContainer h3 {
+  font-size: 16px;
+  margin: 0 0 17px;
+}
+
+div.SimilarTopicsContainer div.CloseBox {
+  color: #999999;
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+  line-height: 12px;
+  margin: 0 0 0 10px;
+  text-align: center;
+  width: 16px;
+}
+
+div.SimilarTopicsContainer div.CloseBox:hover {
+  color: #fff;
+}
+
+div.SimilarTopicsContainer div.CloseBox:active {
+  color: #FFF;
+}
+
+/* similar topics list */
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont {
+  margin-bottom: 10px;
+  min-height: 55px;
+  clear: both;
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont.even {}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont:last-child {
+  margin-bottom: 0;
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.LeftSide {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  padding: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.LeftSide img {
+  border-radius: 50%;
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.RightSide {
+  overflow: hidden;
+  line-height: 14px;
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.RightSide a {}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.RightSide a.author {
+  color: #8F8F9B;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.RightSide a.author:hover {
+  color: #fff;
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.RightSide a.blogtitle {
+  color: #8F8F9B;
+  font-size: 11px;
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.RightSide a.blogtitle:hover {
+  color: #fff;
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.RightSide a.topic_title {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.RightSide a.topic_title:hover {
+  color: #fff;
+}
+
+div.SimilarTopicsContainer div.OneSimilarTopicCont div.RightSide span.CommentCount {
+  color: #8F8F9B;
+  display: inline-block;
+  height: 17px;
+  padding-left: 5px;
+  line-height: 18px;
+}
+
+/* misc */
+
+.RoundedCorners5 {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.RoundedCorners20 {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+
+.BoxShadow {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+a#Similarpopup_DontShowThisToMe {
+  color: #888888;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-size: 10px;
+  margin: 0;
+}
+
+a#Similarpopup_DontShowThisToMe:hover {
+  color: #fff;
+}
